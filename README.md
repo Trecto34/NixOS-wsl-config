@@ -11,20 +11,24 @@ But you can feel free to clone it and use and as base for your settings.
 ### *Of my configs* 
 1. **Backup your settings:**
 `sudo mkdir /etc/nixos/backups`
+
 `sudo cp configuration.nix /etc/nixos/backups`
 
-2. **Add Unstable channel** ([Source](https://gist.github.com/voidIess/59ba97e4f759c2498f81289205582e61))
+3. **Add Unstable channel** ([Source](https://gist.github.com/voidIess/59ba97e4f759c2498f81289205582e61))
 `sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable unstable`
+
 `sudo nix-channel --update`
 
-3. **Clone This Repo**
+5. **Clone This Repo**
 `git clone https://github.com/Trecto34/NixOS-wsl-config`
+
 `cd NixOS-wsl-config`
+
 `sudo cp -r ./nixos /etc/`
 
-4. **Edit the settings to fit your needs**
+7. **Edit the settings to fit your needs**
 
-5. **Rebuild Your System**
+8. **Rebuild Your System**
 `sudo nixos-rebuild switch`
 
 # TODO
