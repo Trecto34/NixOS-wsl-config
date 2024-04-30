@@ -34,7 +34,7 @@ But you can feel free to clone it and use and as base for your settings.
 8. **Rebuild Your System**
 
 `sudo nixos-rebuild switch`
-s
+
 # TODO
 - [ ] Improve the organization of the files
     - [ ] Add sections (e.g: Brute Force, Web Exploitation, Network Mapping, etc.)
