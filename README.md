@@ -27,7 +27,7 @@ But you can feel free to clone it and use and as base for your settings.
 
 `cd NixOS-wsl-config`
 
-`sudo cp -r ./nixos /etc/`
+`sudo cp -r configuration.nix pkgs/ /etc/nixos/`
 
 7. **Edit the settings to fit your needs**
 
